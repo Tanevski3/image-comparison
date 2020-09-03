@@ -13,7 +13,6 @@ public class MainEntry extends Application {
         // identify main component
         // construct it
         FXMLLoader loader = new FXMLLoader(MainEntry.class.getClassLoader().getResource("index.fxml"));
-//        loader.setController(new ImageComparisonController());
         Pane root = loader.load();
         Scene scene = new Scene(root);
         stage.setScene(scene);

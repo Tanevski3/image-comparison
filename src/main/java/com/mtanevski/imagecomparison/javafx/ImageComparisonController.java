@@ -56,7 +56,7 @@ public class ImageComparisonController {
         stringBuilder.append((check3 ? "ICV3: Images match": "ICV3: Images do not match"));
         statusLbl.setText(stringBuilder.toString());
         screenRecorder.takeScrenshot();
-        screenRecorder.takeMultipleScrenshots();
+        // screenRecorder.takeMultipleScrenshots();
     }
 
     private File waitChooseFileDialog() {

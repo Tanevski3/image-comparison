@@ -1,6 +1,6 @@
 package com.mtanevski.imagecomparison.javafx;
 
-public class MainEntry1 {
+public class ConsoleMainEntry {
 
     public static int max(int[] numbers) {
         // choosing the minimum value as a starting point so we can compare initially

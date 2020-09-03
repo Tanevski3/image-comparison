@@ -12,13 +12,7 @@ public class ICV2CheckPixels {
 
     public static boolean check(File pic1, File pic2) throws IOException {
 
-        if (Arrays.equals(returnPixelVal(pic1), returnPixelVal(pic2))) {
-            System.out.println("Match");
-            return true;
-        } else {
-            System.out.println("No match");
-            return false;
-        }
+        return Arrays.equals(returnPixelVal(pic1), returnPixelVal(pic2));
 
     }
 
